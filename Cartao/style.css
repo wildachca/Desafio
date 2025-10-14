@@ -1,43 +1,46 @@
 body{
-    background-color: rgb(198, 147, 245);
+    background-color: rgb(196, 139, 250);
 
     padding-left: 10%;
     
     font-family: 'Georgia', serif; 
     
     font-size: 20px; 
-    
-    text-align: center; 
+
     
 }
   
+div{
+  width: 330px; 
+    background-color: rgb(219, 143, 255);
+    border: 3px solid #4d125f; 
+    margin: 98px;
+    padding: 98px; 
+    
+    border-radius: 50px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  
+
+
+}
   h1 {
-    color: #3e0a4b; 
+    color: #260130; 
     
     text-transform: uppercase; 
     
     font-size: 48px; 
-  }
-
-
-.card {
-    width: 300px; 
-    background-color: white;
-    border: 1px solid #ccc; 
-    margin: 20px;
-    padding: 20px; 
     
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    
   }
   
-  
-  .card img {
-    width: 100px; 
-    height: 100px; 
+
+  img {
+    width: 200px; 
+    height: 200px; 
     
     border-radius: 50%; 
-    border: 3px solid #007bff; 
+    border: 3px solid #330150; 
     
     display: block;
     margin: 0 auto 15px auto; 
@@ -52,12 +55,12 @@ ul li {
 
 
 a {
-    color: #81088b; 
+    color: #25003a; 
     text-decoration: none; 
 }
 
 a:hover{
-    color: #000000; 
+    color: #9600fa; 
 }
 
 
