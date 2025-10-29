@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1cce6;
+    color: #000000;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #8e44ad, #c71585);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  
+  nav a.ativo, nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    background: url('assets/imagens/banner.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #c71585;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background-color: #8e44ad;
+  }
+  
+  .sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+  }
+  
+  .sobre img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .destaques {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .card h3 {
+    color: #8e44ad;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #8e44ad;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer .social img {
+    width: 25px;
+    margin: 5px;
+  }
+  
+  .grade-cursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 50px;
+  }
+  
+  .curso-card {
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+  
+  .curso-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .contato {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 15px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #fdfdfd;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #c71585;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8e44ad;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    .sobre {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .destaques {
+      flex-direction: column;
+    }
+  }
+  
